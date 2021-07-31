@@ -4292,7 +4292,7 @@ function checkbibl()
 	if doesFileExist('moonloader/updateswathelperr.ini') then
 		os.remove('moonloader/updateswathelperr.ini')
 	end
-	downloadUrlToFile('https://raw.githubusercontent.com/ozr1236/swat/e6eb9684a067552b5814f75fae15041f44101747/updateswathelperr.ini', 'moonloader/updateswathelperr.ini', function(id, status)
+	downloadUrlToFile('https://raw.githubusercontent.com/ozr1236/swat/main/updateswathelperr.ini', 'moonloader/updateswathelperr.ini', function(id, status)
 		if status == dlstatus.STATUSEX_ENDDOWNLOAD then
 			if doesFileExist('moonloader/updateswathelperr.ini') then
 				local updates = io.open('moonloader/updateswathelperr.ini','r')
