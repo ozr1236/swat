@@ -4320,7 +4320,7 @@ function checkbibl()
 		wait(300)
 	end
 	if doupdate then
-		DownloadFile('', thisScript().path)
+		DownloadFile('https://raw.githubusercontent.com/ozr1236/swat/main/SWAT%20Helper.lua', thisScript().path)
 		NoErrors = true
 		ASHelperMessage('Обновление успешно установлено.')
 		return false
