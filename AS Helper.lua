@@ -1,7 +1,7 @@
 script_name('SWAT Helper')
 script_description('Удобный помощник для Автошколы.')
 script_author('JustMini')
-script_version_number(41)
+script_version_number(42)
 script_version('1.00')
 script_dependencies('imgui; samp events; lfs')
 
